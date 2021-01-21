@@ -7,7 +7,7 @@
     "name": "Team Fortress 2 Classic",
     "author": "eggs@scattergun.io",
     "description": "Team Fortress 2 Classic is a free mod of the 2007 game Team Fortress 2, developed by Eminoma and utilizing the Source engine.",
-    "image": "quay.io\/parkervcp\/pterodactyl-images:debian_base",
+    "image": "quay.io\/parkervcp\/pterodactyl-images:base_debian",
     "startup": ".\/srcds_run -game {{SRCDS_GAME}} -console -port {{SERVER_PORT}} +map {{SRCDS_MAP}} +ip {{SERVER_IP}} -strictportbind -norestart -debug +maxplayers {{MAXPLAYERS}}",
     "config": {
         "files": "{}",
